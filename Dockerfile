@@ -1,6 +1,6 @@
 # Dockerfile
 
-FROM ruby:3.2.2
+FROM ruby:bookworm
 
 WORKDIR /code
 COPY . /code
