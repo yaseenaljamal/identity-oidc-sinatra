@@ -1,6 +1,6 @@
 # Dockerfile
 
-FROM ruby:3.2.2
+FROM ruby:3.3.5
 
 WORKDIR /code
 COPY . /code
