@@ -13,7 +13,7 @@ gem 'jwt', '~> 2.1'
 gem 'nokogiri', '>= 1.11.0'
 gem 'puma', '~> 5.6'
 gem 'rake'
-gem 'sinatra', '~> 2.2'
+gem 'sinatra', '~> 2.2', '>= 2.2.4'
 gem 'newrelic_rpm'
 
 group :development do
@@ -22,7 +22,7 @@ end
 
 group :test do
   gem 'fakefs', require: 'fakefs/safe'
-  gem 'rack-test', '>= 1.1.0'
+  gem 'rack-test', '>= 2.1.0'
   gem 'rspec', '~> 3.11'
   gem 'webmock'
 end
